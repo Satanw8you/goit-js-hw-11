@@ -41,7 +41,7 @@ function handleSearchOnForm(event) {
 }
 
 function fetchImages(name) {
-  const BASE_URL = 'https://pixabay.com/api';
+  const BASE_URL = 'https://pixabay.com/api/';
   const API_KEY = '41847717-e04c221e42f4fa0d8db3b7e62';
   const inputName = name;
   const SEARCH_PARAMS = new URLSearchParams({
